@@ -13,7 +13,6 @@ class Itineraries extends StatelessWidget {
       body: GridView.count(
           crossAxisCount: 2,
           shrinkWrap: true,
-          childAspectRatio: 0.53,
           children: <Widget>[
             Stack(
               children: <Widget>[

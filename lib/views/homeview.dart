@@ -14,7 +14,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Container(
-      padding: const EdgeInsets.all(100.0),
+      padding: EdgeInsets.all(MediaQuery.of(context).size.width / 8),
       decoration: const BoxDecoration(
         image: DecorationImage(
           image: AssetImage("assets/rioHome.jpg"),
@@ -24,40 +24,52 @@ class HomeView extends StatelessWidget {
       child: Center(
           child: Column(
         children: [
-          const Center(
+          Center(
               child: Text("Welcome to",
                   style: TextStyle(
                     color: Colors.amberAccent,
-                    fontSize: 60,
+                    fontSize: (MediaQuery.of(context).size.width >
+                            MediaQuery.of(context).size.height)
+                        ? MediaQuery.of(context).size.width / 35
+                        : MediaQuery.of(context).size.height / 30,
                     fontWeight: FontWeight.bold,
                   ))),
-          const Center(
+          const SizedBox(height: 10),
+          Center(
               child: Text("Rio de Janeiro",
                   style: TextStyle(
                     color: Colors.redAccent,
-                    fontSize: 60,
+                    fontSize: (MediaQuery.of(context).size.width >
+                            MediaQuery.of(context).size.height)
+                        ? MediaQuery.of(context).size.width / 35
+                        : MediaQuery.of(context).size.height / 30,
                     fontWeight: FontWeight.bold,
                   ))),
-          const Center(
+          const SizedBox(height: 10),
+          Center(
               child: Text("Brazil",
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 60,
+                    fontSize: (MediaQuery.of(context).size.width >
+                            MediaQuery.of(context).size.height)
+                        ? MediaQuery.of(context).size.width / 35
+                        : MediaQuery.of(context).size.height / 30,
                     fontWeight: FontWeight.bold,
                   ))),
+          const SizedBox(height: 10),
           Container(
-              width: 200,
-              height: 70,
-              margin: const EdgeInsets.all(50),
+              margin: const EdgeInsets.all(30),
               child: ElevatedButton(
-                onPressed: () => onn(context),
-                child: const Text("Explore Itineraries",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold,
-                    )),
-              )),
+                  onPressed: () => onn(context),
+                  child: const Padding(
+                    padding: EdgeInsets.all(20),
+                    child: Text("Explore Itineraries",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        )),
+                  ))),
         ],
       )),
     ));

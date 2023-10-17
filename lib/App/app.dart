@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:untitled/views/homeview.dart';
 
 class MyApp extends StatelessWidget {
@@ -8,9 +9,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      theme: ThemeData(
+          primarySwatch: Colors.blueGrey,
+          scaffoldBackgroundColor: Colors.blueGrey.shade200,
+          textTheme: GoogleFonts.libreBaskervilleTextTheme()),
       title: "Explore the City",
-      home: HomeView(),
+      home: const HomeView(),
     );
   }
 }

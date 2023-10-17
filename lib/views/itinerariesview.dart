@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/views/homeview.dart';
+import 'package:untitled/views/activityview.dart';
 
 class Itineraries extends StatelessWidget {
   const Itineraries({super.key});
   void onn(BuildContext context) {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => const HomeView()),
+      MaterialPageRoute(builder: (context) => const Activity()),
     );
   }
 

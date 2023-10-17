@@ -1,0 +1,18 @@
+{"activities" : [
+    {
+        "title":"Parque Lage",
+        "description":"Originating from an old sugar mil, the park makes part of the historic memory of the city. In 1957, it was tumbled by the “Instituto do PatrimônioHistórico e ArtísticoNacional” (IPHAN) like as historical and cultural heritage of the city of Rio de Janeiro. Projected in 1840 by the the English landscaper John Tyndale, the wonderful garden with Romantic and European style share the attention with the native forest of Mata Atlântica. Also highlight imperial palm tree, the rivers and artificial island, a part from caves spread over the park and the inlaid aquarium on the walls with a lot of fishes. So wanted by families, especially on the weekends, Parquelaje have a good structure good structure for the amusement of children with toys and a large outdoor area. Picnic is very common the park.",
+        "imgSrc":"assets/ParqueLage.jpg"
+    },
+    {
+        "title":"Museu Historico Nacional",
+        "description":"Originally a fortress and an ammunition depot dated of Colonial Brazil, the National Historical Museum created in 1922 became one of the most important museums of history in the country, housing a collection of circa 300,000 items. It holds 9,000 square meters galleries of long term and temporary exhibitions, besides a Library and Historical and Institutional Archives .",
+        "imgSrc":"assets/MuseuHistoricoNacional.jpg"
+    },
+    {
+        "title":"Forte de Copacabana",
+        "description":"The fortress is located at the southern end of Copacabana beach and provides you with a full view of Copacabana and Leme beaches on one side and Diabo beach followed by Arpoador rock on the other. Forte de Copacabana (Copacabana Fort) was inaugurated in 1914 with the purpose of increasing the defense of Guanabara bay. In 1986 its military function was finished and it turned into Army History Museum to honor the memory of the Brazilian Army, as well as to serve as a cultural space for its visitors.",
+        "imgSrc":"assets/FortedeCopacabana.jpg"
+    }
+]
+}

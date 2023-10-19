@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/views/activityview.dart';
+import 'package:explore_the_city/views/activityview.dart';
 
 class Itineraries extends StatelessWidget {
   const Itineraries({super.key});

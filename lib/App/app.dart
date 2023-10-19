@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:untitled/views/homeview.dart';
+import 'package:explore_the_city/views/homeview.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({

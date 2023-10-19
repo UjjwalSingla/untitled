@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/views/itinerariesview.dart';
+import 'package:explore_the_city/views/itinerariesview.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});

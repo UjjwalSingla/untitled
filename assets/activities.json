@@ -1,4 +1,4 @@
-{"activities" : [
+{"History" : [
     {
         "title":"Parque Lage",
         "description":"Originating from an old sugar mil, the park makes part of the historic memory of the city. In 1957, it was tumbled by the “Instituto do PatrimônioHistórico e ArtísticoNacional” (IPHAN) like as historical and cultural heritage of the city of Rio de Janeiro. Projected in 1840 by the the English landscaper John Tyndale, the wonderful garden with Romantic and European style share the attention with the native forest of Mata Atlântica. Also highlight imperial palm tree, the rivers and artificial island, a part from caves spread over the park and the inlaid aquarium on the walls with a lot of fishes. So wanted by families, especially on the weekends, Parquelaje have a good structure good structure for the amusement of children with toys and a large outdoor area. Picnic is very common the park.",
@@ -11,8 +11,59 @@
     },
     {
         "title":"Forte de Copacabana",
-        "description":"The fortress is located at the southern end of Copacabana beach and provides you with a full view of Copacabana and Leme beaches on one side and Diabo beach followed by Arpoador rock on the other. Forte de Copacabana (Copacabana Fort) was inaugurated in 1914 with the purpose of increasing the defense of Guanabara bay. In 1986 its military function was finished and it turned into Army History Museum to honor the memory of the Brazilian Army, as well as to serve as a cultural space for its visitors.",
+        "description":"The fortress is located at the southern end of Copacabana beach and provides you with a full view of Copacabana and Leme beaches on one side and Diabo beach followed by Arpoador rock on the other.Forte de Copacabana (Copacabana Fort) was inaugurated in 1914 with the purpose of increasing the defense of Guanabara bay. In 1986 its military function was finished and it turned into Army History Museum to honor the memory of the Brazilian Army, as well as to serve as a cultural space for its visitors.",
         "imgSrc":"assets/FortedeCopacabana.jpg"
+    }
+],
+"Adeventure":[
+    {
+        "title":"Hang Gliding or Paragliding in Rio",
+        "description":"See Rio de Janeiro from a whole new angle during a private tour that offers the option of hang gliding or paragliding over the Eternal City. It is not necessary to have previous experience in these extreme sports to enjoy this tour, which allows you to escape the crowds on land and enjoy unparalleled views of the main attractions such as Copacabana Beach, Christ the Redeemer and Sugarloaf Mountain. Read more about Experience Hang Gliding or Paragliding in Rio - https://www.viator.com/en-CA/tours/Rio-de-Janeiro/Hanggliding-and-Paragliding-Best-experience-in-Rio/d712-135187P1?mcid=56757",
+        "imgSrc":"assets/handgliding.jpg"
+    },
+    {
+        "title":"Arraial do Cabo with Boat Tour ",
+        "description":"Swap the bustle of Rio de Janeiro for the tropical beauty of Arraial do Cabo, known by locals as the Brazilian Caribbean, on a full-day tour that takes care of transfers, activities, meals, and guides so you don’t have to. Letting someone else drive allows you to sit back and soak up the scenery, while stops to swim in crystal-clear waters increase your chances of spotting wildlife.",
+        "imgSrc":"assets/boat.jpg"
+    },
+    {
+        "title":"Telegraph Stone by Jeep Adventure",
+        "description":"The dramatic rock viewpoint of Pedra do Telegrado is one of the most popular photo spots in Rio de Janeiro. With this tour, explore the West Zone of Rio en route to the viewpoint, stopping at four different beaches. Hike up to the Pedra do Telegrado and enjoy plenty of time to pose for photos on the unique overhanging rock.",
+        "imgSrc":"assets/Telegraph.jpg"
+    }
+],
+"Food":[
+    {
+        "title":"Feijoada",
+        "description":"One of the main typical dishes of Rio de Janeiro has something special. The feijoada is made with black beans and salted pork and beef. The accompaniments can be: white rice, farofa and cabbage. The dish can also be accompanied by an orange slice. Some say the fruit helps cutting out the fat present in Feijoada, but is it true?",
+        "imgSrc":"assets/Feijoad.jpg"
+    },
+    {
+        "title":"CODFISH CAKE",
+        "description":"The codfish cake is mostly eaten during New Year celebrations, but we can’t deny that it’s an indispensable item in the palate of Rio. This appetizer, which is easily found in bars and bakeries, reveals traces of the Portuguese influence in typical dishes of Rio de Janeiro.",
+        "imgSrc":"assets/codcake.jpg"
+    },
+    {
+        "title":"OSWALDO ARANHA FILET",
+        "description":"Few people know, but this is a dish that was born, in fact, in the city of Rio de Janeiro. It’s said that the politician and diplomat Oswaldo Aranha regularly visited a restaurant in Lapa and always ordered the same meal: a well seasoned filet with fried garlic accompanied by white rice, fried Portuguese potatoes and eggs farofa (a toasted manioc or maize flour mixture).",
+        "imgSrc":"assets/fillet.jpg"
+    }
+],
+"Night":[
+    {
+        "title":"Rio Carnival Parade",
+        "description":"Rio’s Carnival Parade is famous around the world and with more than two million people visiting the city during Carnival, booking your tickets in advance is essential. With this ticket, choose from multiple seating options and experience one of the spectacular samba school parades from the grandstand. A subway pass is also included, ensuring hassle-free transport to and from the Sambadrome, as well as to other attractions around the city.",
+        "imgSrc":"assets/carnival.jpg"
+    },
+    {
+        "title":"Rio By Night Private Tour",
+        "description":"After a day of sightseeing, spend your evening getting to know Rio’s cultural side on this nighttime tour. Alongside a private guide, experience the city’s bustling nightlife as you explore the bohemian neighborhood of Lapa. Catch stunning views of Rio’s cityscape from the top of a tall building, then head to small, quirky bars for a night of drinking, dancing, mingling, and samba.",
+        "imgSrc":"assets/nighttour.jpg"
+    },
+    {
+        "title":"Samba Night at Pedra do Sal",
+        "description":"Step into the birthplace of samba and prepare to be mesmerized as talented musicians and dancers take the stage, delivering electrifying live samba performances. Feel the pulsating rhythm in your veins and let yourself be carried away by the infectious energy of the music. Join in the dance, learn some steps, and fully embrace the joyous spirit of samba. ",
+        "imgSrc":"assets/samba.jpg"
     }
 ]
 }

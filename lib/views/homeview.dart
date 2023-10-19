@@ -56,21 +56,22 @@ class HomeView extends StatelessWidget {
                         : MediaQuery.of(context).size.height / 30,
                     fontWeight: FontWeight.bold,
                   ))),
-          const SizedBox(height: 10),
-          Container(
-              margin: const EdgeInsets.all(30),
-              child: Center(
-                  child: ElevatedButton(
-                      onPressed: () => onn(context),
-                      child: const Padding(
-                        padding: EdgeInsets.all(20),
-                        child: Text("Explore Itineraries",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold,
-                            )),
-                      )))),
+          Align(
+              alignment: Alignment.bottomCenter,
+              child: Container(
+                  margin: const EdgeInsets.all(30),
+                  child: Center(
+                      child: ElevatedButton(
+                          onPressed: () => onn(context),
+                          child: const Padding(
+                            padding: EdgeInsets.all(20),
+                            child: Text("Explore Itineraries",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                )),
+                          ))))),
         ],
       )),
     ));

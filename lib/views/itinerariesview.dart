@@ -3,10 +3,12 @@ import 'package:untitled/views/activityview.dart';
 
 class Itineraries extends StatelessWidget {
   const Itineraries({super.key});
-  void onn(BuildContext context) {
+
+  void onn(BuildContext context, String activityType) {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => const Activity()),
+      MaterialPageRoute(
+          builder: (context) => Activity(activityType: activityType)),
     );
   }
 
@@ -35,7 +37,7 @@ class Itineraries extends StatelessWidget {
               shrinkWrap: true,
               children: <Widget>[
                 GestureDetector(
-                  onTap: () => onn(context),
+                  onTap: () => onn(context, "History"),
                   child: Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
@@ -59,7 +61,7 @@ class Itineraries extends StatelessWidget {
                   ),
                 ),
                 GestureDetector(
-                  onTap: () => onn(context),
+                  onTap: () => onn(context, "Adeventure"),
                   child: Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
@@ -83,7 +85,7 @@ class Itineraries extends StatelessWidget {
                   ),
                 ),
                 GestureDetector(
-                  onTap: () => onn(context),
+                  onTap: () => onn(context, "Food"),
                   child: Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
@@ -107,7 +109,7 @@ class Itineraries extends StatelessWidget {
                   ),
                 ),
                 GestureDetector(
-                  onTap: () => onn(context),
+                  onTap: () => onn(context, "Night"),
                   child: Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),

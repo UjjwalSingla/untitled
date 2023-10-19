@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class Activity extends StatefulWidget {
-  const Activity({super.key});
+  final String activityType;
+  const Activity({super.key, required this.activityType});
 
   @override
   State<Activity> createState() => _Activity();
@@ -15,6 +16,7 @@ class _Activity extends State<Activity> {
   String title = "Signal Hill";
   String description =
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
   @override
   void initState() {
     super.initState();
@@ -40,26 +42,27 @@ class _Activity extends State<Activity> {
                 child: Container(
                     color: Colors.white,
                     child: Column(
-                      children: [
-                        Image.asset((activityData?["activities"][index]
+                      children: <Widget>[
+                        Image.asset((activityData?[widget.activityType][index]
                                 ["imgSrc"])
                             .toString()),
                         const SizedBox(height: 10),
                         Text(
-                            (activityData?["activities"][index]["title"])
+                            (activityData?[widget.activityType][index]["title"])
                                 .toString(),
                             style: const TextStyle(
                                 fontWeight: FontWeight.bold, fontSize: 20)),
                         const SizedBox(height: 10),
                         Padding(
                           padding: const EdgeInsets.all(20),
-                          child: Text((activityData?["activities"][index]
+                          child: Text((activityData?[widget.activityType][index]
                                   ["description"])
                               .toString()),
                         )
                       ],
                     )));
           }
+          return null;
         },
       ),
     );

@@ -52,7 +52,7 @@ class Itineraries extends StatelessWidget {
                           child: const Padding(
                               padding: EdgeInsets.all(10.0),
                               child: Text(
-                                "Historical Things",
+                                "History Aficionados",
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold),
@@ -76,7 +76,7 @@ class Itineraries extends StatelessWidget {
                           child: const Padding(
                               padding: EdgeInsets.all(10.0),
                               child: Text(
-                                "Adventure Activities",
+                                "Adventure Enthusiasts",
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold),
@@ -124,7 +124,7 @@ class Itineraries extends StatelessWidget {
                           child: const Padding(
                               padding: EdgeInsets.all(10.0),
                               child: Text(
-                                "Night Life",
+                                "Nightlife Revelers",
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold),
